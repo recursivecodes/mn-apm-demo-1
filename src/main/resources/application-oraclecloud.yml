@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: demo1
+tracing:
+  zipkin:
+    enabled: true
+    http:
+      url:
+      path:
+    sampler:
+      probability: 1
+    supportsJoin: false
+jmx:
+  domain: mn-apm-demo1
+  register-endpoints: true
