@@ -26,12 +26,14 @@ dependencies {
     implementation("io.micronaut:micronaut-runtime")
     implementation("javax.annotation:javax.annotation-api")
     implementation("io.micronaut:micronaut-http-client")
+
     implementation("io.micronaut:micronaut-management")
-    implementation("io.micronaut.jmx:micronaut-jmx")
+
     implementation("io.micronaut:micronaut-tracing")
     runtime('io.zipkin.brave:brave-instrumentation-http')
     runtime('io.zipkin.reporter2:zipkin-reporter')
     compile('io.opentracing.brave:brave-opentracing')
+
     runtimeOnly("ch.qos.logback:logback-classic")
 }
 

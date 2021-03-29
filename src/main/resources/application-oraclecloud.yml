@@ -10,6 +10,7 @@ tracing:
     sampler:
       probability: 1
     supportsJoin: false
-jmx:
-  domain: mn-apm-demo1
-  register-endpoints: true
+codes:
+  recursive:
+    demo2:
+      baseUrl: http://demo2.toddrsharp.com
